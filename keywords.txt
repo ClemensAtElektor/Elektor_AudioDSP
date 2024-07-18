@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Elektor_AudioDSP	KEYWORD1
+Elektor_AudioDSP_I2S_Out	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+led	KEYWORD2
+dsp_reset	KEYWORD2
+dsp_firmware_write_to_eeprom	KEYWORD2
+dsp_is_available	KEYWORD2
+dsp_halt	KEYWORD2
+dsp_run	KEYWORD2
+i2s_port_get	KEYWORD2
+i2s_config_get	KEYWORD2
+i2s_pin_config_get	KEYWORD2
+i2s_config_print	KEYWORD2
+i2s_start	KEYWORD2
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+
+audiodsp	KEYWORD3
+adau	KEYWORD3
+dsp	KEYWORD3
+potentiometer	KEYWORD3
+dac	KEYWORD3
+midi	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+P1	LITERAL1
+P2	LITERAL1
+P3	LITERAL1
+P4	LITERAL1
+SAMPLE_RATE	LITERAL1
+BITS_PER_SAMPLE	LITERAL1
