@@ -1,0 +1,39 @@
+/*
+ * File:           D:\Elektor\_Labs\Projects\230510 Audio DSP Board\SigmaStudio\projects\pitch_shifter\export\pitch shifter_IC_1_PARAM.h
+ *
+ * Created:        Thursday, November 9, 2023 4:44:19 PM
+ * Description:    pitch shifter:IC 1 parameter RAM definitions.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright ©2023 Analog Devices, Inc. All rights reserved.
+ */
+#ifndef __PITCH_SHIFTER_IC_1_PARAM_H__
+#define __PITCH_SHIFTER_IC_1_PARAM_H__
+
+
+/* Module PitchTrans1 - Pitch Transposer Data Controlled*/
+#define MOD_PITCHTRANS1_COUNT                          3
+#define MOD_PITCHTRANS1_DEVICE                         "IC1"
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1MASK_ADDR 0
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1MASK_FIXPT 0x000000FF
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1MASK_VALUE SIGMASTUDIOTYPE_INTEGER_CONVERT(255)
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1MASK_TYPE SIGMASTUDIOTYPE_INTEGER
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1SCALINGFACTOR_ADDR 1
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1SCALINGFACTOR_FIXPT 0x00000096
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1SCALINGFACTOR_VALUE SIGMASTUDIOTYPE_INTEGER_CONVERT(150)
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1SCALINGFACTOR_TYPE SIGMASTUDIOTYPE_INTEGER
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1LIMIT1BUFFERSIZE_ADDR 2
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1LIMIT1BUFFERSIZE_FIXPT 0x0000012C
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1LIMIT1BUFFERSIZE_VALUE SIGMASTUDIOTYPE_INTEGER_CONVERT(300)
+#define MOD_PITCHTRANS1_ALG0_PITCHSHIFTDATACTRLSALG1LIMIT1BUFFERSIZE_TYPE SIGMASTUDIOTYPE_INTEGER
+
+#endif

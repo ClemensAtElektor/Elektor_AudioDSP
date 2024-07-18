@@ -1,0 +1,4 @@
+0 ICSigma100In1 O_C0_A0_P2_out Link0
+1 RegReadAlgADCIn1 O_C57_A0_P1_out Link2
+2 PitchShiftDataCtrlsAlg1 I_C49_A0_P1_in Link0 I_C49_A0_P2_in Link2 O_C49_A0_P3_out Link1
+3 ICSigma100Out2 I_C41_A0_P1_in Link1
