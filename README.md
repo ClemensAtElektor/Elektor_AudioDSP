@@ -37,16 +37,17 @@ You can also copy this folder with all its files into the 'libraries' folder of 
 
 Certain examples and functionalities require third-party libraries that must be installed separately:
 
-- SigmaDSP: https://github.com/MCUdude/SigmaDSP
-- ESP32-A2DP: https://github.com/pschatzmann/ESP32-A2DP
-- arduino-audio-tools: https://github.com/pschatzmann/arduino-audio-tools/
-
+- [arduino-audio-tools](https://github.com/pschatzmann/arduino-audio-tools/)
+- [ESP32-A2DP](https://github.com/pschatzmann/ESP32-A2DP)
+- [ML_SynthTools](https://github.com/marcel-licence/ML_SynthTools)
+- [SigmaDSP](https://github.com/MCUdude/SigmaDSP)
+  
 **Usage**
 
 Examples illustrating different aspects of the board are included. Note that certain examples require third-party libraries that must be installed separately. Therefore, carefull read the documentation proviede with each example.
 
 **About**
 
-Board: ESP32 PICO KIT (ESP32 PICO-D4) + ADAU1701
+Board: ESP32 PICO KIT + ADAU1701
 
-Developped on Arduino IDE 1.8.19
+Developped on Arduino IDE 1.8.19, compile for board ESP32 PICO-D4
