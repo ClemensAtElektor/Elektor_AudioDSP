@@ -9,7 +9,7 @@
  * - Set JP1 ('DSP clock') to position 'X1' (pins 1 & 2)
  * - Set JP2 to position 'Selfboot' (pins 2 & 3)
  * - Connect MIDI keyboard/controller to K5
- * - Upload this sketch to ESP32
+ * - Upload this sketch to the ESP32
  * - Wait for LED1 to start blinking at a rate of 1 Hz
  * - Send MIDI data
  *
