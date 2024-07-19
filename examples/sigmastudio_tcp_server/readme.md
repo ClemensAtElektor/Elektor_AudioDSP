@@ -8,5 +8,5 @@ IDE: 1.8.19
 Usage:
 - Set JP1 ('DSP clock') to position 'X1' (pins 1 & 2)
 - Set JP2 away from 'Selfboot' (i.e. *not* Selfboot, pins 1 & 2)
-- Upload this sketch to ESP32
+- Upload this sketch to the ESP32
 - Wait for LED1 to switch off before trying to connect from SigmaStudio
