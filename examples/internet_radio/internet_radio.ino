@@ -7,7 +7,7 @@
  * - Set JP1 ('DSP clock') to position 'ext. MCLK' (pins 2 & 3)
  * - Set JP2 to position 'Selfboot' (pins 2 & 3)
  * - Enter your Wi-Fi settings in the file credentials.h
- * - Upload this sketch to ESP32
+ * - Upload this sketch to the ESP32
  * - Wait for LED1 to start blinking at a rate of 1 Hz
  * - Connect headphones or amplifier to K3
  * - Turn P1 to change stations (up to three but you can add more)
