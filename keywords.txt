@@ -25,6 +25,7 @@ i2s_config_get	KEYWORD2
 i2s_pin_config_get	KEYWORD2
 i2s_config_print	KEYWORD2
 i2s_start	KEYWORD2
+e2prom_write	KEYWORD2
 
 #######################################
 # Instances (KEYWORD3)
