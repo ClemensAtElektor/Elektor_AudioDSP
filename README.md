@@ -46,8 +46,14 @@ Certain examples and functionalities require third-party libraries that must be 
 
 Examples illustrating different aspects of the board are included. Note that certain examples require third-party libraries that must be installed separately. Therefore, carefull read the documentation proviede with each example.
 
+The version of the ESP32 core installed in Arduino is important. As of ESP32 core version 3.0.0, certain drivers have been deprecated ('legacy') and have been replaced by new ones. Examples are the DAC, ADC and I²S drivers. The legacy drivers are supported until Espressif decides to drop them completely. The Elektor_AudioDSP is intended for use with both legacy and new drivers. However, some examples will only work with legacy drivers and an ESP32 core 2.0.x. Legacy drivers can be enabled or disabled by using some #define, e.g. #define ADC_USE_LEGACY_DRIVER.
+
+For easy switching between multiple ESP32 cores, it is highly recommended to use Arduino IDE 1.8.x instead of 2.x. The Portable feature of the 1.8.x IDE makes this possible.
+
+Another confusing Espressif thing is the large number of ESP32 variants. This project is intended for the ESP32-PICO-D4. The ESP32-PICO-V3 can also be used, but not the ESP32-PICO-V3-02 nor the ESP32-PICO-Mini because they lack GPIO pins 9 and 10.  
+
 **About**
 
 Board: ESP32 PICO KIT + ADAU1701
 
-Developped on Arduino IDE 1.8.19, compile for board ESP32 PICO-D4
+Developped on Arduino IDE 1.8.19 with ESP32 core 2.0.17. Compile for board ESP32 PICO-D4
