@@ -10,6 +10,7 @@
 
 
 #include "ESP32_dac.h"
+#include <stdexcept>
 
 #define MUX_CHANNELS  (4)
 
@@ -53,7 +54,7 @@ public:
     digitalWrite(_mux1,channel);
     _dac[0].write(value1); // X
     _dac[1].write(value2); // Y
-    delay(10);
+    delay(20);
   }
 
   void refresh(bool force=false)

@@ -62,7 +62,9 @@ public:
     for (size_t i=0; i<data_size; i++)
     {
       write(p_data[i],i);
+      if (i%256==0) Serial.printf(".");
     }
+    Serial.printf("\n");
   }
 
   uint8_t read(uint16_t address) 
