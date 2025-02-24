@@ -50,10 +50,24 @@ The version of the ESP32 core installed in Arduino is important. As of ESP32 cor
 
 For easy switching between multiple ESP32 cores, it is highly recommended to use Arduino IDE 1.8.x instead of 2.x. The Portable feature of the 1.8.x IDE makes this possible.
 
-Another confusing Espressif thing is the large number of ESP32 variants. This project is intended for the ESP32-PICO-D4. The ESP32-PICO-V3 can also be used, but not the ESP32-PICO-V3-02 nor the ESP32-PICO-Mini because they lack GPIO pins 9 and 10.  
+Another confusing Espressif thing is the large number of ESP32 variants. This project is intended for the ESP32-PICO-D4 a.k.a. ESP32-PICO-KIT_V4.1. The ESP32-PICO-V3 a.k.a. ESP32-PICO-KIT-1 can also be used, but not the ESP32-PICO-V3-02 nor the ESP32-PICO-Mini because they lack GPIO pins 9 and 10. Starting from the second production batch, the Audio DSP FX Processor uses the ESP32-PICO-KIT-1. This board has two rows of 18 pins and can also be used to replace the ESP32-PICO-KIT_V4.1.
+
+To switch to using the ESP32-PICO-KIT-1, add a define `ESP32_MODULE` before including the Elektor_AudioDSP library, as shown below (default is `ESP32_PICO_KIT_D4`). The Board to use in the Arduino IDE is the same for both modules, i.e., ESP32 PICO-D4.
+
+```cpp
+#define ESP32_MODULE  ESP32_PICO_KIT_1
+#include "Elektor_AudioDSP.h"
+Elektor_AudioDSP audiodsp = Elektor_AudioDSP();
+```
 
 **About**
 
 Board: ESP32 PICO KIT + ADAU1701
 
 Developped on Arduino IDE 1.8.19 with ESP32 core 2.0.17. Compile for board ESP32 PICO-D4
+
+**Further Reading**
+
+More details about the board and how to get started with it are available through [Elektor Labs](https://www.elektormagazine.com/labs):
+
+[Audio DSP FX Processor](https://www.elektormagazine.com/labs/audio-dsp-fx-processor)
